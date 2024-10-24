@@ -1,4 +1,4 @@
-.navigation{
+h1{
     background-color: rgb(3, 3, 63);
     display:block;
     text-align:left;
@@ -9,5 +9,13 @@
 }
 body{
     margin:0;
-    
+    background-color: rgb(234, 210, 246);
+    font-family: helventica;
+}
+.a{
+    margin-bottom:0px;
+}
+
+.b{
+    margin-top:4px;
 }
