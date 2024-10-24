@@ -12,10 +12,59 @@ body{
     background-color: rgb(234, 210, 246);
     font-family: helventica;
 }
+
+p{
+    padding-left:20px;
+}
 .a{
     margin-bottom:0px;
 }
 
 .b{
     margin-top:4px;
+}
+
+span{
+    color:red;
+}
+
+.image{
+    text-align: center;
+}
+
+.heading{
+    width:700;
+    height:100;
+    object-fit: cover;
+    object-position: top;
+}
+
+.link{
+    text-align: center;
+}
+
+.error{
+    color:red;
+    text-decoration:underline;
+
+}
+
+.symbol_error{
+    color:red;
+    text-decoration:underline;
+
+}
+
+.symbol_error::before {
+    content: "\26A0\0020";
+}
+
+.validation_error{
+    color:red;
+    text-decoration:underline;
+
+}
+
+.validation_error::before {
+    content: "\0020\002A";
 }
