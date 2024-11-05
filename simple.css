@@ -1,52 +1,25 @@
+.heading{
+    height: 80px;
+    background-color: rgb(39, 31, 40);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-shadow: 0 0 20px white;
+    font-size: 40px;
+    animation: move 1s ease-in alternate-reverse;
+}
+
 body{
     background-color: black;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.arun{
-    background-color: orange;
-    width: 100%;
-    height:100%;
-    animation: move 2s ease both alternate-reverse 3;
-    position: relative;
-    animation-delay: 0.5;
-    display: flex;
     color:white;
-    justify-content: center;
-    border:10px solid;
-    align-items: center;
-}
-
-.guru{
-    display: flex;
-    color:white;
-    justify-content: center;
-    align-items: center;
-    background-color:red;
-    width: 100%;
-    height: 100%;
-    animation: move 2s ease 2 alternate-reverse;
-    animation-delay: 0.5;
-    animation-fill-mode: both;
-    border:10px solid;
-    position: absolute;
-}
-
-.arun,.guru{
-    animation-play-state: paused ;
-}
-
-body .arun,.guru{
-    animation-play-state: running;
+    margin: 0;
 }
 
 @keyframes move{
+    from{
+        transform: translateY(0);
+    }
     to{
-        transform: scale(0,1);
+        transform: translateY(-30vh);
     }
 }
-

@@ -2,7 +2,6 @@ body{
   background-color: black;
   color:white;
   margin: 0;
-
 }
 
 .banner{
@@ -12,6 +11,16 @@ body{
   align-items: center;
   font-size: 40px;
   padding-left: 1%;
+  animation: mov 1s ease forwards;
+}
+
+@keyframes mov{
+  from{
+    transform: translateX(-30vw);
+  }
+  to{
+    transform: translateX(0);
+  }
 }
 
 .container{
@@ -32,6 +41,16 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: move .5s ease-in alternate-reverse;
+}
+
+@keyframes move{
+  from{
+      transform: translateY(0);
+  }
+  to{
+      transform: translateY(-30vh);
+  }
 }
 
 @media screen and (min-height: 1200px){
