@@ -79,15 +79,6 @@ a:active{
 }
 
 
-.show{
-  background-color: rgb(66, 56, 95);
-  color: white;
-  border: 0;
-  padding: 10px 10px;
-  border-radius: 4px;
-  margin-left:-55px;
-}
-
 .forgot{
   margin-bottom:20px;
   margin-top:5px;
