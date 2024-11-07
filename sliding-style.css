@@ -1,0 +1,49 @@
+body{
+    
+    margin:0;
+}
+
+.j{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height:100%;
+    width:100%;
+    position: relative;
+}
+
+.c{
+    height:95%;
+    background-color: black;
+    width:90%;
+    position: absolute;
+    animation: move 2s ease-in-out infinite;
+}
+
+.d{
+    
+}
+
+
+
+@keyframes move{
+    0%{
+        height:100%;
+        width:100%;
+    }
+    10%{
+        height:95%;
+        width:90%;
+    }
+    20%{
+        left:5%;
+    }
+    100%{
+        left:-100%
+    }
+
+    
+    
+    
+
+}
