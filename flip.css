@@ -15,7 +15,8 @@ body{
     background-color: rgb(158, 29, 29);
     width:80%;
     height:85%;
-    animation: move 2s ease alternate-reverse infinite;
+    animation: move 2s ease-in-out alternate-reverse infinite ;
+    border:20px solid rgb(75, 112, 197);
 
 }
 
